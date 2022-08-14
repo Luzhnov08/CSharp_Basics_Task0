@@ -15,14 +15,9 @@ string holiday(int day)
     {
         switch (day)
         {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
+            case >= 1 and <= 5:
                 return "нет";
-            case 6:
-            case 7:
+            case 6 or 7:
                 return "да";
             default:
                 return "введено число вне интервала от 1 до 7";
