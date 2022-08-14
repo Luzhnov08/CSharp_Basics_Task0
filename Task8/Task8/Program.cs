@@ -12,7 +12,7 @@ namespace Task8
             int num = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Четные числа для числа {num}:");
 
-            for (int i = 0; i < num; i+=2) 
+            for (int i = 0; i <= num; i+=2) 
             {
                 if (i != 0) 
                 {
